@@ -1,6 +1,7 @@
 extends KinematicBody2D
 
 onready var HUD = get_node("/root/Game/HUD")
+onready var Enemy = load("res://Enemy/Enemy.tscn")
 
 export var speed = Vector2(0,3)
 export var health = 100
